@@ -3,7 +3,7 @@
 
 -- Location of keyword data
 local in_path  = arg[1] or [[firebird_sql_keywords.csv]]
-local out_path = arg[2] or [[firebird_sql_keywords.vim]]
+local out_path = arg[2] or [[sqlfirebird_body]]
 
 -- Mapping of keyword data to Vim types
 local type_map = {
@@ -111,7 +111,7 @@ local function write_keyword(f, name, items)
 	
 	local a,i = 1,1
 	while i <= #items do
-		while (i <= #items) and (table.concat(items, " ", a,i):len() < 56) do
+		while (i <= #items) and (table.concat(items, " ", a,i):len() < 48) do
 			i = i + 1
 		end
 		write_kw_start()
