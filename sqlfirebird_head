@@ -1,0 +1,19 @@
+" Vim syntax file
+" Language:    SQL
+" Maintainer:  Scott Morgan < blumf7 at gmail dot com >
+" Last Change: ###DATESTAMP###
+" Version:     1.0
+
+" For version 5.x: Clear all syntax items
+" For version 6.x: Quit when a syntax file was already loaded
+if version < 600
+    syntax clear
+elseif exists("b:current_syntax")
+    finish
+endif
+
+syn case ignore
+
+" The SQL reserved words, defined as keywords.
+setlocal iskeyword+==,<,>,!,~,^,|
+
