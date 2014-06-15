@@ -46,7 +46,7 @@
 "BACKUP",
 "BEFORE",
 "BEGIN","key"
-"BETWEEN",
+"BETWEEN","op"
 "BIGINT","type"
 "BIN_AND","func"
 "BIN_NOT","func"
