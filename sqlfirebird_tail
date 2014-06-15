@@ -25,23 +25,23 @@ if version >= 508 || !exists("did_sql_syn_inits")
     command -nargs=+ HiLink hi def link <args>
   endif
 
-  HiLink sqlKeyword		sqlSpecial
+  HiLink sqlKeyword   sqlSpecial
 
-  HiLink sqlOperator	sqlStatement
-  HiLink sqlSpecial		Special
-  HiLink sqlFunction	Special
+  HiLink sqlOperator  sqlStatement
+  HiLink sqlSpecial   Special
+  HiLink sqlFunction  Function
 
-  HiLink sqlStatement	Statement
-  HiLink sqlObject		Identifier
-  HiLink sqlType		Type
-  HiLink sqlTypeMod		Type
+  HiLink sqlStatement Statement
+  HiLink sqlObject    Identifier
+  HiLink sqlType      Type
+  HiLink sqlTypeMod   Type
 
-  HiLink sqlConst		String
-  HiLink sqlString		String
-  HiLink sqlNumber		Number
+  HiLink sqlConst     Constant
+  HiLink sqlString    String
+  HiLink sqlNumber    Number
 
-  HiLink sqlComment		Comment
-  HiLink sqlTodo		Todo
+  HiLink sqlComment   Comment
+  HiLink sqlTodo      Todo
 
   delcommand HiLink
 endif

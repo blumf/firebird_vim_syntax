@@ -1,5 +1,5 @@
 " Vim syntax file
-" Language:    SQL
+" Language:    SQL, Firebird SQL (2.5)
 " Maintainer:  Scott Morgan < blumf7 at gmail dot com >
 " Last Change: ###DATESTAMP###
 " Version:     1.0
