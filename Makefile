@@ -10,3 +10,7 @@ all:
 clean:
 	rm -f sqlfirebird_body sqlfirebird.vim
 
+install:
+	mkdir -p ~/.vim/syntax
+	cp sqlfirebird.vim ~/.vim/syntax
+
