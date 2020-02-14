@@ -1,6 +1,6 @@
 " Strings and characters:
-syn region sqlString		start=+"+  skip=+\\\\\|\\"+  end=+"+
-syn region sqlString		start=+'+  skip=+\\\\\|\\'+  end=+'+
+syn region sqlString		start=+"+  end=+"+
+syn region sqlString		start=+'+  end=+'+
 
 " Numbers:
 syn match sqlNumber		"-\=\<\d*\.\=[0-9_]\>"
